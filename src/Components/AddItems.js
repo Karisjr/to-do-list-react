@@ -7,7 +7,7 @@ export default function AddItem(props) {
     function addNewNote(e){
         e.preventDefault();
         console.log("I was clicked")
-        if(todoName == "") {
+        if(todoName === "") {
             console.log("Empty input!")
             return
         }
